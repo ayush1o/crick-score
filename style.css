@@ -1,0 +1,13 @@
+h1 {
+    color: #333;
+    text-align: center;
+    width: 100%;
+    position: relative; /* Change from absolute to relative */
+    margin-top: 20px; /* Add some space */
+    z-index: 5; /* Higher than the canvas */
+    font-size: 2rem;
+    background: rgba(255, 255, 255, 0.7); /* Add a slight background to improve visibility */
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
